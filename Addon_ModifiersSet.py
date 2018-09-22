@@ -291,9 +291,6 @@ clss = [SaveModifierSet,LoadModifierSet,RemoveModifierSet,AddModifierSet,ApplyMo
 
 ### REGISTER ###
 
-def draw(self,context):
-    lo = self.layout
-
 def register():
     for cls in clss:
         bpy.utils.register_class(cls)
@@ -303,8 +300,6 @@ def register():
     bpy.types.Scene.modifiersSetIndex = bpy.props.IntProperty(default = 0)    
     bpy.types.Object.isModifiersHolder = bpy.props.BoolProperty(default = False)    
     bpy.types.Object.modifiersSetName = bpy.props.StringProperty()
-    
-    bpy.types.DATA_PT_modifiers.prepend(draw)
     
 def unregister():
     for cls in clss:
