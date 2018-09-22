@@ -7,3 +7,7 @@ Modifiers Set Add-on allows you to make modifiers as modifiers set that can be s
 
 ### Requirement
 Blender 2.78 later
+
+### etc
+  - It Says "Save As Blend File",but actually you do not need to add ".blend" extension to file name.
+  - Missing references in modifier like Object or Vertex group would not raise exception.
