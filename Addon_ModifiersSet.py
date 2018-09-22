@@ -19,13 +19,13 @@
 
 bl_info = {
     "name": "Modifiers Set",
-    "author": "",
+    "author": "TkSakai",
     "version": (0, 1),
     "blender": (2, 79, 0),
     "location": "PROPERTIES > Modifiers > Modifier Set",
     "description": "Make modifiers set",
     "warning": "Version difference between files could cause unexpected behaviour",
-    "wiki_url": "",
+    "wiki_url": "https://github.com/TkSakai/Add-on_ModifiersSet",
     "category": "Object",
 }
 
